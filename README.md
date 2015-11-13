@@ -1,1 +1,1 @@
-# android_device_OnePlus_E1003
+# CyanogenMod files for the OnePlus X
