@@ -13,7 +13,7 @@ TARGET_CPU_VARIANT := krait
 TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
 
-TARGET_BOOTLOADER_BOARD_NAME := e1003
+TARGET_BOOTLOADER_BOARD_NAME := msm8974
 
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=23 msm_rtb.filter=0x3b7 ehci-hcd.park=3 androidboot.bootdevice=msm_sdcc.1 androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x00008000
@@ -26,6 +26,8 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2147483648
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12611894272
 BOARD_FLASH_BLOCK_SIZE := 4096
 
+TARGET_KERNEL_SOURCE := kernel/oneplus/e1003
+TARGET_KERNEL_CONFIG := cyanogenmod_e1003_defconfig
 TARGET_PREBUILT_KERNEL := device/oneplus/e1003/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
